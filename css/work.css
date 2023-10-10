@@ -1,0 +1,172 @@
+* {
+  box-sizing: border-box;
+}
+body{
+	margin: 0;
+	padding: 0;
+}
+.background1{
+	width: 100%;
+	height: 117px;
+	position: absolute;
+	background-color: #174717;
+}
+.background2{
+	width: 100%;
+	height: 38px;
+	position: absolute;
+	background-color: #256226;
+	top: 117px;
+}
+.body{
+	position: relative;
+	left: 20%;
+	width: 60%;
+}
+.box1{
+	width: 100%;
+	height: 117px;
+}
+
+.list{
+	width: 100%;
+	height: 38px;
+}
+.listbox{
+	float: left;
+	width: 103px;
+	height: 38px;
+	text-align: center;
+	line-height: 38px;
+}
+.listbox a{
+	color: white;
+	text-decoration: none;
+	font-family: 微软雅黑;
+	font-size: 14px;
+	font-weight: bold;
+	font-style: normal;
+}
+.listbox a:hover{
+	color: yellow;
+	text-decoration: none;
+}
+
+
+.main{
+	width: 100%;
+	height: 100%;
+}
+.mainleft{
+	width: 27%;
+	height: 100%;
+	position: relative;
+	float: left;
+	padding: 0 5px;
+	
+}
+.mainright{
+	width: 73%;
+	height: 100%;
+	position: relative;
+	float: right;
+	right: 0;
+	padding: 0 15px;
+	border-left:2px solid #C0C0C0;
+	border-right:2px solid #C0C0C0;
+}
+
+.new{
+	float: left;
+	width: 100%;
+	height: 100%;
+}
+
+
+h2{
+	text-align: center;
+	font-size: 30px;
+}
+
+.title_p{
+	border-top: 1px solid #EEEEEE;
+	border-bottom:1px solid #EEEEEE ;
+	padding: 3px 0;
+}
+.title1{
+	width: 100%;
+	background-color: #EEEEEE;
+	text-align: center;
+}
+p{
+	width: 100%;
+	padding: 0 2em;
+}
+
+
+.bor{
+	width: 100%;
+	height: 35px;
+	border-bottom: 2px solid #BE041B;
+	text-align: left;
+	padding: 5px;
+}
+.link{
+	width: 100%;
+	height: 100%;
+}
+.linleft{
+	position: relative;
+	width: 80%;
+	height: 100%;
+	float: left;
+	left: 0;
+	background-color: ;
+}
+.linright{
+	position: relative;
+	width: 20%;
+	height: 100%;
+	float: right;
+	right: 0;
+}
+.net{
+	display: inline-block;
+	white-space: nowrap;
+	overflow: hidden;
+	text-align: left;
+	width: 100%;
+	padding: 5px;
+	float: left;
+	text-decoration: none;
+	color: #292E31;
+}
+.net:hover{
+	color: #800000;
+}
+.date{
+	display: inline-block;
+	white-space: nowrap;
+	overflow: hidden;
+	text-align:right;
+	width: 100%;
+	padding: 5px ;
+	float: right;
+}
+
+.foot{
+	position: relative;
+	background-color: darkred;
+	width: 100%;
+	height: 150px;
+	float: left;
+}
+.else1{
+	position: absolute;
+	width:100% ;
+	float: left;
+	top: 30%;
+	margin: auto;
+	text-align: center;
+	color: white;
+}
